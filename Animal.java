@@ -8,6 +8,8 @@ class Animal{
         this.cor = cor;
     }
 
-
+    public void reproduzir(){
+        System.out.printl("reproduzir");
+    }
 
 }

@@ -3,5 +3,8 @@ public class Caneta{
     private int qtd_tinta;
     private String ponta;
 
+    public void escrever(){
+        System.out.printl("escrevendo");
+    }
 
 }
