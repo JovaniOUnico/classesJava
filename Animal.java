@@ -4,6 +4,10 @@ class Animal{
     private String nome;
     private Integer idade;
 
+    public void Animal(String cor){
+        this.cor = cor;
+    }
+
 
 
 }
