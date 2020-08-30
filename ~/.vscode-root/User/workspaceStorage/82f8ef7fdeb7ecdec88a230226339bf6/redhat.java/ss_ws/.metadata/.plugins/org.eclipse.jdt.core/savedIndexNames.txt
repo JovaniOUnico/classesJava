@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+/home/jovani/Área de Trabalho/projetosJava/classesJava/~/.vscode-root/User/workspaceStorage/82f8ef7fdeb7ecdec88a230226339bf6/redhat.java/ss_ws/.metadata/.plugins/org.eclipse.jdt.core
