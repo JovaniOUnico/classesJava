@@ -11,7 +11,7 @@
             "folder": "file:///home/jovani/%C3%81rea%20de%20Trabalho/projetosJava/classesJava",
             "backupPath": "/home/jovani/Área de Trabalho/projetosJava/classesJava/~/.vscode-root/Backups/8549ba10662c7f2c70845e7d3c2edfa1",
             "uiState": {
-                "mode": 1,
+                "mode": 0,
                 "x": 171,
                 "y": 64,
                 "width": 1024,
@@ -106,7 +106,8 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save"
+                        "label": "&&Save",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.files.saveAs",
@@ -185,7 +186,8 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File"
+                        "label": "Re&&vert File",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
@@ -413,7 +415,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel"
+                                    "label": "Show &&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -588,7 +591,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -909,8 +913,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"

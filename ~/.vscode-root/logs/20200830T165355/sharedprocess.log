@@ -1,3 +1,0 @@
-[2020-08-30 16:53:59.280] [sharedprocess] [info] main {"machineId":"33f5d37cd713a665a2c81c2e7f5eef8a10680e9b96d3b5a07c6e37594991281b","windowId":2}
-[2020-08-30 16:53:59.374] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/jovani/Área de Trabalho/projetosJava/classesJava/~/.vscode-root/User/snippets'
-[2020-08-30 16:54:39.324] [sharedprocess] [info] Starting to clean up unused language packs.
