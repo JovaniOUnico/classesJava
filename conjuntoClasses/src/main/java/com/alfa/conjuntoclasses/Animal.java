@@ -9,6 +9,8 @@ package com.alfa.conjuntoclasses;
  *
  * @author jovani
  */
+
+//a classe animal representa o reino animal
 public class Animal {
     
     private String   nomeCientifico;

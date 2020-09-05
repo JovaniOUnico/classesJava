@@ -15,6 +15,21 @@ public class teste {
         Caneta aux = new Caneta("azul",900,"grossa");
         aux.desTampar();
         aux.escreva("ola mundo");
+        
+        String[] rep = new String[2];
+        rep[0] = "gemulação";
+        rep[1] = "gemiparidade";
+        
+        String nomeCientifico ="esponjilusfamiliares";
+        String DataDescoberta="10/2/1910";
+        String[] Habitats = new String[1];
+        Habitats[0] = "marinho";
+        Double altura = 0.0;
+        Integer tempoDeVida = 120;
+        
+        Poriferos esponja;
+        esponja = new Poriferos(rep,nomeCientifico, DataDescoberta,Habitats,altura,tempoDeVida);
+        esponja.reproduzir();
     }
     
 }

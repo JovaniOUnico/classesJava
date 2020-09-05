@@ -14,10 +14,6 @@ import java.util.Random;
 
 public class Cachorro extends Animal{
 
-    
-
-
-
     private String nome;
     private String cor;
     private Double peso;
@@ -33,7 +29,7 @@ public class Cachorro extends Animal{
         this.setNome(nome);
         this.gerador = new Random();
     }
-
+    
     public void status(){
 
         System.out.println("Nome: " + this.nome);  
@@ -42,7 +38,7 @@ public class Cachorro extends Animal{
         System.out.println("cor: " + this.cor);
 
     }
-
+    
     public void pular(){
 
         if (super.getAltura() >= 80){
@@ -56,7 +52,7 @@ public class Cachorro extends Animal{
         }       
   
     }  
-
+    
     public void comer() {
 
         if (faminto){
@@ -66,7 +62,7 @@ public class Cachorro extends Animal{
         }        
 
     }   
-
+    
     public void falar(){       
         
         this.aux = gerador.nextInt(3);
@@ -83,28 +79,25 @@ public class Cachorro extends Animal{
     public String getNome() {
         return nome;
     }
-
+    
     public void setNome(String nome) {
         this.nome = nome;
     }
-
+    
     public String getCor() {
         return cor;
     }
-
+    
     public void setCor(String cor) {
         this.cor = cor;
     }
-
+    
     public Double getPeso() {
         return peso;
     }
-
+    
     public void setPeso(Double peso) {
         this.peso = peso;
-    }
-    
-    
-    
+    }    
 
 }
