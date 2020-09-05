@@ -14,10 +14,10 @@ public class Animal {
     private String   nomeCientifico;
     private String   DataDescoberta;
     private String[] HabitatsQueVivem;
-    private Integer  altura;
+    private Double  altura;
     private Integer  tempoDeVida; 
     
-    public void Animal(String nomeCientifico,String DataDescoberta,String[] Habitats,Integer altura,Integer tempoDeVida){
+    public void Animal(String nomeCientifico,String DataDescoberta,String[] Habitats,Double altura,Integer tempoDeVida){
         this.setAltura(altura);
         this.setDataDescoberta(DataDescoberta);
         this.setHabitatsQueVivem(Habitats);
@@ -49,11 +49,11 @@ public class Animal {
         this.HabitatsQueVivem = HabitatsQueVivem;
     }
 
-    public Integer getAltura() {
+    public Double getAltura() {
         return altura;
     }
 
-    public void setAltura(Integer altura) {
+    public void setAltura(Double altura) {
         this.altura = altura;
     }
 
