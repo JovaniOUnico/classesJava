@@ -11,70 +11,125 @@ package com.alfa.conjuntoclasses;
  */
 
 //a classe animal representa o reino animal
+
+
 public class Animal {
-    
-    private String   nomeCientifico;
-    private String   DataDescoberta;
-    private String[] HabitatsQueVivem;
-    private Double  altura;
-    private Integer  tempoDeVida; 
-    
-    public void Animal(String nomeCientifico,String DataDescoberta,String[] Habitats,Double altura,Integer tempoDeVida){
-        this.setAltura(altura);
-        this.setDataDescoberta(DataDescoberta);
-        this.setHabitatsQueVivem(Habitats);
-        this.setTempoDeVida(tempoDeVida);
-        this.setNomeCientifico(nomeCientifico);
+ 
+    public double peso;
+    public String grupo;
+    public String sexo;
+    public String nome;
+    public String cor;
+    public float altura;
+    public int correndo;
+    public boolean faminto;
+    public boolean latino;
+    public String maior;
+ 
+    public double getPeso() {
+        return peso;
     }
-
-    public String getNomeCientifico() {
-        return nomeCientifico;
+ 
+    public void setPeso(double peso) {
+        this.peso = peso;
     }
-
-    public void setNomeCientifico(String nomeCientifico) {
-        this.nomeCientifico = nomeCientifico;
+ 
+    public String getGrupo() {
+        return grupo;
     }
-
-    public String getDataDescoberta() {
-        return DataDescoberta;
+ 
+    public void setGrupo(String grupo) {
+        this.grupo = grupo;
     }
-
-    public void setDataDescoberta(String DataDescoberta) {
-        this.DataDescoberta = DataDescoberta;
+ 
+    public String getSexo() {
+        return sexo;
     }
-
-    public String[] getHabitatsQueVivem() {
-        return HabitatsQueVivem;
+ 
+    public void setSexo(String sexo) {
+        this.sexo = sexo;
     }
-
-    public void setHabitatsQueVivem(String[] HabitatsQueVivem) {
-        this.HabitatsQueVivem = HabitatsQueVivem;
+ 
+    public String getNome() {
+        return nome;
     }
-
-    public Double getAltura() {
+ 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+ 
+    public String getCor() {
+        return cor;
+    }
+ 
+    public void setCor(String cor) {
+        this.cor = cor;
+    }
+ 
+    public float getAltura() {
         return altura;
     }
-
-    public void setAltura(Double altura) {
+ 
+    public void setAltura(float altura) {
         this.altura = altura;
     }
-
-    public Integer getTempoDeVida() {
-        return tempoDeVida;
+ 
+    public int getCorrendo() {
+        return correndo;
     }
-
-    public void setTempoDeVida(Integer tempoDeVida) {
-        this.tempoDeVida = tempoDeVida;
+ 
+    public void setCorrendo(int correndo) {
+        this.correndo = correndo;
     }
-    
-    public void reproduzir(Animal ani){
-        
-        if(ani.getNomeCientifico().equals(this.nomeCientifico)){
-            System.out.println("Realizando Reprodução");
-        }else{
-            System.out.println("Não Realiza Reprodução");
-        }
-        
-    }  
-    
+ 
+    public boolean isFaminto() {
+        return faminto;
+    }
+ 
+    public void setFaminto(boolean faminto) {
+        this.faminto = faminto;
+    }
+ 
+    public boolean isLatino() {
+        return latino;
+    }
+ 
+    public void setLatino(boolean latino) {
+        this.latino = latino;
+    }
+ 
+    public String getMaior() {
+        return maior;
+    }
+ 
+    public void setMaior(String maior) {
+        this.maior = maior;
+    }
+   
+   
+    void imprimir(){
+        System.out.println("Peso: " + this.peso + ", Grupo: " + this.grupo + ", Sexo: " + this.sexo);
+    }
+   
+    public Animal() {
+       
+    }
+   
+    public Animal(double peso){
+        this.peso = peso;
+    }
+   
+    public Animal(double peso, String grupo){
+        this.peso = peso;
+        this.grupo = grupo;  
+    }
+   
+    public Animal(double peso, String grupo, String sexo){
+        this.peso = peso;
+        this.grupo = grupo;  
+        this.sexo = sexo;
+    }
+   
+ 
+   
 }
