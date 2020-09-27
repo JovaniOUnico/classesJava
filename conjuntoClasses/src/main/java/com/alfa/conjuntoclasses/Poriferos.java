@@ -20,9 +20,9 @@ public class Poriferos extends Animal {
 
    
     
-    Poriferos(String[] rep,String nomeCientifico,String DataDescoberta,String[] Habitats,Double altura,Integer tempoDeVida){
+    Poriferos(String[] rep,double peso,String grupo,String sexo,Double altura,Integer tempoDeVida){
         
-        super.Animal(nomeCientifico, DataDescoberta,Habitats,altura,tempoDeVida);
+        
         this.reproducao = new Integer[3];
         this.reproducao[0]=0;
         this.reproducao[1]=0;
@@ -36,9 +36,10 @@ public class Poriferos extends Animal {
         
         String[] strings = (String[]) lista.toArray (new String[lista.size()]);
         
-        super.setHabitatsQueVivem(strings);
         
-        
+        super.setPeso(peso);
+        super.setGrupo(grupo);
+        super.setSexo(sexo);
     }
     
     private void setReproducao(String[] listaReproducao){

@@ -28,8 +28,13 @@ public class teste {
         Integer tempoDeVida = 120;
         
         Poriferos esponja;
-        esponja = new Poriferos(rep,nomeCientifico, DataDescoberta,Habitats,altura,tempoDeVida);
-        esponja.reproduzir();
+//        esponja = new Poriferos(rep,nomeCientifico, DataDescoberta,Habitats,altura,tempoDeVida);
+//        esponja.reproduzir();
+        
+        Cachorro caramelo = new Cachorro();
+        caramelo.falar();
+        caramelo.falar("cães falam?");
+        
     }
     
 }

@@ -129,6 +129,7 @@ public class Animal {
         this.grupo = grupo;  
         this.sexo = sexo;
     }
+
    
  
    

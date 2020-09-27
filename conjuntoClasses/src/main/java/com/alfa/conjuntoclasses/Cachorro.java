@@ -21,14 +21,22 @@ public class Cachorro extends Animal{
     private boolean faminto;
     private boolean latindo;
     private int aux;
-    private Random gerador;
+    private Random gerador=new Random();
+ 
 
     public void Cachorro(String nome,String cor,Double peso){
         this.setCor(cor);
         this.setPeso(peso);
         this.setNome(nome);
-        this.gerador = new Random();
+       
     }
+    
+     public void Cachorro(){
+        this.setCor("Sem Nome");
+        this.setPeso(0.0);
+        this.setNome("ola");
+    }
+    
     
     public void status(){
 
@@ -76,6 +84,19 @@ public class Cachorro extends Animal{
         
     }
     
+    public void falar(String EasterEgg){       
+        
+        this.aux = 4;
+        if(EasterEgg.equals("cães falam?")){
+            System.out.println(this.nome + " Eu tambem me pergunto a mesma coisa");
+        } else if(EasterEgg.equals("Hello Word")){
+            System.out.println(this.nome + " Desenvolvedor né? ");
+        } else {
+            System.out.println(this.nome + " está rosnando para você, o indice foi: " + this.aux);
+        }
+        
+    }
+    
     public String getNome() {
         return nome;
     }
@@ -91,13 +112,7 @@ public class Cachorro extends Animal{
     public void setCor(String cor) {
         this.cor = cor;
     }
-    
-    public Double getPeso() {
-        return peso;
-    }
-    
-    public void setPeso(Double peso) {
-        this.peso = peso;
-    }    
+     
 
 }
+
