@@ -1,4 +1,6 @@
-package com.alfa.conjuntoclasses;
+package com.alfa.realidade;
+
+import com.alfa.animais.Animal;
 
 /**
  *

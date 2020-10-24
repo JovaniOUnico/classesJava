@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.alfa.conjuntoclasses;
+package com.alfa.animais;
 
 
 import java.util.ArrayList;
@@ -23,6 +23,26 @@ public class Poriferos extends Animal {
     Poriferos(String[] rep,double peso,String grupo,String sexo,Double altura,Integer tempoDeVida){
         
         
+        this.reproducao = new Integer[3];
+        this.reproducao[0]=0;
+        this.reproducao[1]=0;
+        this.reproducao[2]=0;
+        
+        this.setReproducao(rep);
+        
+        ArrayList lista = new ArrayList();
+        lista.add("marinho");
+        lista.add("aquático");
+        
+        String[] strings = (String[]) lista.toArray (new String[lista.size()]);
+        
+        
+        super.setPeso(peso);
+        super.setGrupo(grupo);
+        super.setSexo(sexo);
+    }
+
+    public Poriferos(String[] rep, String nomeCientifico, String DataDescoberta, String[] Habitats, Double altura, Integer tempoDeVida) {
         this.reproducao = new Integer[3];
         this.reproducao[0]=0;
         this.reproducao[1]=0;

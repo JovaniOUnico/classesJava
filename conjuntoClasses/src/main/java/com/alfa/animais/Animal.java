@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.alfa.conjuntoclasses;
+package com.alfa.animais;
 
 /**
  *
@@ -107,7 +107,7 @@ public class Animal {
     }
    
    
-    void imprimir(){
+    public void imprimir(){
         System.out.println("Peso: " + this.peso + ", Grupo: " + this.grupo + ", Sexo: " + this.sexo);
     }
    

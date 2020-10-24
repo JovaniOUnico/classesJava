@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.alfa.conjuntoclasses;
+package com.alfa.interacao;
 
 /**
  *
@@ -60,6 +60,7 @@ public class ContaBanco {
     
     public boolean pagarMensal(){
         Double valor;
+        valor =0.0;
         if(this.getTipo().equals("CC")){
             valor =12.0;
         }else if(this.getTipo().equals("CP")){
